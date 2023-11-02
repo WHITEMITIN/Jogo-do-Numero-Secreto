@@ -15,6 +15,10 @@ function exibirMensagemInicial() {
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 5000');
 }
 
+function Mudanca() {
+    let mudança = 0;
+}
+
 exibirMensagemInicial();
 
 function verificarChute() {

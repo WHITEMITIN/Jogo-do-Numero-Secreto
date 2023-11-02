@@ -2,6 +2,7 @@ let listaDeNumerosSorteados = [];
 let numeroLimite = 5000;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
+let cachorroquente = 0;
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
@@ -52,10 +53,12 @@ function gerarNumeroAleatorio() {
     }
 }
 
+
 function limparCampo() {
     chute = document.querySelector('input');
     chute.value = '';
 }
+//WOW
 
 function reiniciarJogo() {
     numeroSecreto = gerarNumeroAleatorio();
